@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            background-color: #E9EFEC;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        button {
+            margin: 0 5px;
+            padding: 10px;
+            border: none;
+            background-color: #16423C;
+            cursor: pointer;
+            border-radius: 15px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #6A9C89;
+        }
+        .photo {
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 250px;
+            border-radius: 20%;
+        }
+        iframe {
+            width: 100%;
+            height: 100px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="photo">
+        <img src="C:\Users\LENOVO\Downloads\Image (2).jfif" alt="Minha Foto">         <img align: ="left">
+    </div>
+    <h1>Bruno Pietro Lopes dos Santos</h1>
+    <l>(Estudante de Analise e Desenvolvimento de Sistemas)</l>
+    <nav>
+        <button onclick="changeSection('identificacao.html')">Identificação</button>
+        <button onclick="changeSection('formacao.html')">Formação</button>
+        <button onclick="changeSection('experiencia.html')">Experiência Profissional</button>
+        <button onclick="changeSection('hobbies.html')">Hobbies</button>
+    </nav>
+
+    <script>
+        function changeSection(section) {
+            document.getElementById('content-frame').src = section;
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Identificação</title>
+</head>
+<body>
+    <h2>Identificação</h2>
+    <p>Nome: Bruno Pietro Lopes dos Santos</p>
+    <p>Email: brunolopess_09@icloud.com</p>
+    <p>Telefone: (81) 98464-2303</p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formação</title>
+</head>
+<body>
+    <h2>Formação</h2>
+    <ul>
+        <li>Graduando em Analise e Desenvolvimento de Sistemas - SENAC (2024-Atual)</li>
+        <li>Curso de Inglês no Nível Intermediário (2017)</li>
+    </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiência Profissional</title>
+</head>
+<body>
+    <h2>Experiência Profissional</h2>
+    <ul>
+        <li>Estagiário de Pedagogia na Prefeitura de Olinda (2022 - 2023)</li>
+        <li>Estagiário de Pedagogia na Prefeitura de Recife  (2023)</li>
+        <li>Serviços Gerais em Aprenda + Cursos  (2019)</li>
+    </ul>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Hobbies</title>
+</head>
+<body>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Jogar</li>
+        <li>Leitura</li>
+        <li>Programação</li>
+        <li>Caminhadas</li>
+        <li>Dormir</li>
+        <li>Cozinhar</li>
+        <li>Ir á Praia</li>
+    </ul>
+</body>
+</html>
